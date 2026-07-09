@@ -10,16 +10,19 @@ body {
 /* Container dos botões */
 nav {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
+    flex-direction: row;     
+    flex-wrap: wrap;          
+    justify-content: center;  
+    gap: 15px;                
     margin-top: 30px;
+    max-width: 1060px;        
+    margin-left: auto;        
+    margin-right: auto;
 }
 
-/* Estilização dos links para parecerem botões */
 .btn-atividade {
     display: inline-block;
-    width: 200px;
+    width: 200px;             /* Largura fixa de cada botão */
     padding: 12px 20px;
     background-color: #24292e;
     color: white;
